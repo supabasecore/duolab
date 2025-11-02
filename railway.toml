@@ -1,0 +1,5 @@
+[build]
+builder = "nixpacks"
+
+[build.environment]
+PHP_EXTENSIONS = "pdo,pdo_mysql,mysqli"

@@ -3,3 +3,6 @@ builder = "nixpacks"
 
 [build.environment]
 PHP_EXTENSIONS = "pdo,pdo_mysql,mysqli"
+
+[start]
+cmd = "php -S 0.0.0.0:8080 -t /app"
